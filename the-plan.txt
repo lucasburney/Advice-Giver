@@ -1,0 +1,12 @@
+so what i'm thinkin is i get a madlibs esque style app that pulls different message bits from an array and puts them in my thing randomly. I may actually want to post thi
+s to my professional github so no saying tht word cunt.
+
+it'll have something like:
+
+Never ever run into a restaurant while several dogs make bread...
+
+I don't know. That seems a bit dry. But the basic structure is there
+
+(absolute command)(thing you do) into a (place) while (creature/ creatures) (present tense action).
+
+I can make 4 array's with strings of those things. a random number generator with array.length that places a array[i] in their places. Done.
