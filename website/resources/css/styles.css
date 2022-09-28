@@ -1,0 +1,17 @@
+main {
+  background-color: blueviolet;
+  display: flex;
+}
+
+.grid {
+  background-color: black;
+  display: grid;
+  grid-template: repeat(2, 8rem) / repeat(6, 1fr);
+}
+
+.grid-element {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
