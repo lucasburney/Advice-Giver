@@ -3,6 +3,7 @@
 html {
   font-size: 16px;
   font-family: monospace, sans-serif;
+  background-color: darkslategray;
 }
 
 main {
@@ -29,13 +30,16 @@ main {
   border: 2px black solid;
 }
 
+/* ADVICE BAR */
+
 .grid-item.a {
   grid-area: 1 / 1 / span 1 / span 4;
 }
 
-.grid-item.b {
-  grid-area: 1 / 5 / span 2 / span 2;
+.grid-item.a p {
+  font-size: 2rem;
 }
+
 
 /* LOADING BAR */
 
@@ -58,21 +62,36 @@ main {
 
 /* BUTTON */
 
-.grid-item.d {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 button {
-  height: 70%;
-  width: 70%;
+  height: 8rem;
+  width: auto;
   border-radius: 50%;
 }
 
 /* ADVICE GIVER PORTRAIT */
 
-.grid-item.b {
-  background-color: aliceblue;
-  display: flex;
+.grid-item.b,
+.grid-item.e,
+.grid-item.f {
+  grid-area: 1 / 5 / span 2 / span 2;
 }
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-1 {
+  z-index: 8;
+}
+
+.img-2 {
+  z-index: 6;
+}
+
+.img-3 {
+  z-index: 1;
+}
+

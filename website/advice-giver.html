@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advice Giver</title>
-  <link rel="stylesheet" href="./resources/css/reset.css">
-  <link rel="stylesheet" href="./resources/css/styles.css">
-</head>
-<body>
-  <main>
-    <div class="grid">
-      <div class="grid-item a">A</div>
-      
-      <div class="grid-item b">
-        <img src="./resources/images/waiting.jpg" alt="A man waits for a question to be asked">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice Giver</title>
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <script src="./resources/js/random-sentence-generator.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="grid">
+        
+        <div class="grid-item a">
+          <p class="sage-advice" id="sage-advice">"Ask away"</p>
+        </div>
+        
+        <div class="grid-item b">
+          <img src="./resources/images/waiting.jpg" alt="A man waits for a question to be asked" class="img-1" />
+        </div>
+        <div class="grid-item e">
+          <img src="./resources/images/thinking.jpg" alt="A man thinks" class="img-2" />
+        </div>
+        <div class="grid-item f">
+          <img src="./resources/images/got-it.jpg" alt="A man explains" class="img-3" />
+        </div>
+        
+        
+        <div class="grid-item c">
+          <div class="bar 1"></div>
+          <div class="bar 2"></div>
+          <div class="bar 3"></div>
+        </div>
+        
+        
+        <div class="grid-item d">
+          <button>Get Advice</button>
+        </div>
+        
       </div>
-      
-      
-      <div class="grid-item c">
-        <div class="bar 1"></div>
-        <div class="bar 2"></div>
-        <div class="bar 3"></div>
-      </div>
-
-
-      <div class="grid-item d">
-        <button>
-          <p>Get Advice</p>
-        </button>
-      </div>
-      <!-- <div class="grid-item e">E</div>
-      <div class="grid-item f">F</div> -->
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
